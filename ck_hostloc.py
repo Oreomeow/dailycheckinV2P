@@ -173,7 +173,7 @@ class HOSTLOC:
     # 打印输出当前ip地址
     @staticmethod
     def log_my_ip():
-        api_url = "https://api.ipify.org/"
+        api_url = "https://4.ipw.cn/"
         try:
             r = requests.get(url=api_url)
             r.raise_for_status()
